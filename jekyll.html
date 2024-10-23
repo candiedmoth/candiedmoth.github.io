@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Gothic Literature</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+	</head>
+	<body onLoad="MM_preloadImages('Hyde.png','Jekyll.png')">
+		<header>
+			<h1>The big four</h1>
+			<nav>
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="frankenstein.html">Frankenstein</a>
+					</li>
+					<li>
+						<a href="dorian.html">The Picture Of Dorian Gray</a>
+					</li>
+					<li>
+						<a href="jekyll.html">Dr. Jekyll and Mr. Hyde</a>
+					</li>
+					<li>
+						<a href="dracula.html">Dracula</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+		<!--main content goes here-->
+		<article class="item">
+			<h1>The Strange case of Dr. Jekyll and Mr. Hyde</h1>
+			<h3> By Robert Louis Stevenson </h3>
+			<h2>Synopsis</h2>
+			<p>Gabriel John Utterson finds himself deeply worried for his close friend, Dr. Henry Jekyll, after receiving his latest will. He takes it upon himself to investigate the doctor as things get stranger and stranger. His investigations all seem to lead to the mysterious Mr. Hyde, but what could he have to do with his good friend?.</p>
+			
+		</article>
+		<article class="item">
+			<h2>Characters</h2>
+			<h3> Dr. Henry Jekyll </h3>
+			<!-- remember to add class="imagecentre" -->
+			<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('jekyll','','Hyde.png',1)"><img id="jekyll" src="Jekyll.png" alt="" width="200px" class="imagecentre"></a>
+<blockquote>All human beings, as we meet them, are commingled out of good and evil: and Edward Hyde, alone, in the ranks of mankind, was pure evil. </blockquote>
+			
+			<h3> Gabriel John Utterson </h3>
+			<img src="utterson.png" class="imagecentre" alt="Image of Gabriel John Utterson" width="200px">
+			<blockquote> If he shall be Mr. Hyde, then I will be Mr. Seek </blockquote>
+			
+			<h3> Dr. Hastie Lanyon </h3>
+			<img src="lanyon.png" class="imagecentre" alt="Image of Doctor Hastie Lanyon" width="200px">
+			<blockquote> “Upon the reading of this letter, I made sure my colleague was insane; but till that was proved beyond the possibility of doubt, I felt bound to do as he requested.” </blockquote>
+			
+			<h3>Edward Hyde</h3>
+			<!-- remember to add class="imagecentre" -->
+			<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('hyde','','Jekyll.png',1)"><img id="hyde" src="Hyde.png" alt="" width="200px" class="imagecentre"></a>
+<blockquote> Jekyll had more than a father's interest; Hyde had more than a son's indifference. </blockquote>
+			
+			</article>
+			<article class="item">
+				<h2>Adaptations</h2>
+			<ul>
+				<li>The Glass Scientists</li>
+				<li>King's Academy production of the Jekyll and Hyde musical don't bother with the broadway version with David Hasselhoff he's awful in the role and I can't in good conscience recommend it.</li>
+				
+			</ul>
+			</article>
+<!--end of main content-->
+		</main>
+		<footer>
+		  <p>&copy; Copyright 2024. Gabriel Ellul</p>
+		</footer>
+	</body>
+</html>
